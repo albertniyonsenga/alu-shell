@@ -23,6 +23,8 @@ So to achieve that automation, i used `ls -lan` and here we go:tada:.
 
 ## Welcome-6
 We created script a script to change directory to `/tmp` and create new file named `my_first_directory` in that directory. 
+## Betty-7&8
+In Question 7 and 8 we created new file `betty` and move it from one directory to another and then delete it in its current directory. 
 
 ---
 
