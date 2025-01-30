@@ -7,6 +7,10 @@ Automate the work of printing our working directory using `Shell` scripts.
 ## Displaying our current directory-1
 We are required write script to display the contents in our current directory.
 ## No place like home-2
-We crafted script to change the working directory to the user's home directory with ease, here we just used simple command `cd  ..` but incorporated in `shell` script to automate the task.
+We crafted script to change the working directory to the user's home directory with ease, here we just used simple command `cd  ..` but incorporated in `shell` script to automate the task
+## The long format-3
+We are required to display the contents in a long format. I used `ls -l` command to perform that automation.
+
+
 
 All in all we're mastering terminal by automating the boring stuff :smile: 
