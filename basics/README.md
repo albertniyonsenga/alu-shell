@@ -10,7 +10,8 @@ We are required write script to display the contents in our current directory.
 We crafted script to change the working directory to the user's home directory with ease, here we just used simple command `cd  ..` but incorporated in `shell` script to automate the task
 ## The long format-3
 We are required to display the contents in a long format. I used `ls -l` command to perform that automation.
-
+## Hidden files-4
+Displaying the current directory contents including hidden files, i used `ls -la`.
 
 
 All in all we're mastering terminal by automating the boring stuff :smile: 
