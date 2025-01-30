@@ -12,6 +12,14 @@ We crafted script to change the working directory to the user's home directory w
 We are required to display the contents in a long format. I used `ls -l` command to perform that automation.
 ## Hidden files-4
 Displaying the current directory contents including hidden files, i used `ls -la`.
+## Loving numbers-5
+We have to display contents in long format, hidden files and also with their user and group IDs numerically.
+Here i used `ls -lan`, lemme explain more about this command:
+- `ls`: we normally use it to display content within current directory.
+- `-l`: used to display content in long format(showing permissions, owners, etc.)
+- `-a`: used to show all files including hidden ones
+- `-n`: used to display numerical user and group IDs instead of names.
+So to achieve that automation, i used `ls -lan` and here we go:tad:.
 
 
 All in all we're mastering terminal by automating the boring stuff :smile: 
