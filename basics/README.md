@@ -19,7 +19,9 @@ Here i used `ls -lan`, lemme explain more about this command:
 - `-l`: used to display content in long format(showing permissions, owners, etc.)
 - `-a`: used to show all files including hidden ones
 - `-n`: used to display numerical user and group IDs instead of names.
-So to achieve that automation, i used `ls -lan` and here we go:tad:.
+So to achieve that automation, i used `ls -lan` and here we go:tada:.
+
+---
 
 
 All in all we're mastering terminal by automating the boring stuff :smile: 
