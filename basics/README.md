@@ -20,14 +20,9 @@ Here i used `ls -lan`, lemme explain more about this command:
 - `-a`: used to show all files including hidden ones
 - `-n`: used to display numerical user and group IDs instead of names.
 So to achieve that automation, i used `ls -lan` and here we go:tada:.
-<<<<<<< HEAD
+
 ## Welcome-6
 We created script a script to change directory to `/tmp` and create new file named `my_first_directory` in that directory. 
-=======
-
----
->>>>>>> a3bcfccef448c9d58f2ac636e06bdb7df615c604
-
 
 ---
 
