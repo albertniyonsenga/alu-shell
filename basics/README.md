@@ -25,6 +25,8 @@ So to achieve that automation, i used `ls -lan` and here we go:tada:.
 We created script a script to change directory to `/tmp` and create new file named `my_first_directory` in that directory. 
 ## Betty-7&8
 In Question 7 and 8 we created new file `betty` and move it from one directory to another and then delete it in its current directory. 
+## Bye bye, Back-9&10
+In this tasks we crafted script to delete `my_first_directory` and then after we go back to our previous directory.
 
 ---
 
