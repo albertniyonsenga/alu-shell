@@ -33,7 +33,10 @@ Here is quick descri about the commands:
 - `ls -la`: used to list all files in long format and display hidden files, `-l` to list in the long format, and then as well `-a` to include the hidden files and then combine them in one we are ready to go.
 - `.`: to display the files in the current directory.
 - `..`: to display the files in the parent directory.
-- `/boot`: to display all files in the `boot` directory.
+- `/boot`: to display all files in the `boot` directory
+
+## Am the file-12
+We crafted script to print the type of the file `iamafile` in directory `tmp`; and here we used command `file` and then the path where the file is located which is `/tmp/iamafile`. As addition, talking about the type you can think about the command `type` instead of `file` but `type` is used for commands not the files.
 
 ---
 
