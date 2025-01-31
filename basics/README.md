@@ -27,6 +27,13 @@ We created script a script to change directory to `/tmp` and create new file nam
 In Question 7 and 8 we created new file `betty` and move it from one directory to another and then delete it in its current directory. 
 ## Bye bye, Back-9&10
 In this tasks we crafted script to delete `my_first_directory` and then after we go back to our previous directory.
+## Lists-11
+In this task we craft script to list all files(including the hidden files) in the `current directory`, `parent directory` and the `/boot` directory in long format as well.
+Here is quick descri about the commands:
+- `ls -la`: used to list all files in long format and display hidden files, `-l` to list in the long format, and then as well `-a` to include the hidden files and then combine them in one we are ready to go.
+- `.`: to display the files in the current directory.
+- `..`: to display the files in the parent directory.
+- `/boot`: to display all files in the `boot` directory.
 
 ---
 
