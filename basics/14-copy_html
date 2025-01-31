@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdeph 1 -name "*.html" -exec test ! -f "../$(basename {})" -o -nt "../$(basename {})" \+ -exec cp {} ../ \+'
+find . -maxdeph 1 -name "*.html" -exec test ! -f "../$(basename {})" -o -nt "../$(basename {})" \+ -exec cp {} ../ \+
