@@ -49,6 +49,8 @@ We are required to copy all `HTML` files from current directory to the parent di
 ## Move-15
 We have to create script to move all files with uppercase letter at the beginning to the directory `/tmp/u` and in this scenario we assumed that thid directory exists.
 So here we used simple stuffs `[A-Z]*` to specify all uppercased files at beginning and then move them into desired directory.
+## Clean and climb-16&17
+Starting with Task 16, we have to clean all the files ended by `~` in our current directory. And for Task 17 we are required to directories at the same time `welcome/`, `welcome/to/` and `welcome/to/school` all in our current director.
 
 ---
 
