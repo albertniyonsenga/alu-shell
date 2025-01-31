@@ -46,6 +46,9 @@ In this task we are required to create a symbolic link to `/bin/ls` and name it 
 
 ## Copy HTML-14
 We are required to copy all `HTML` files from current directory to the parent directory and also make sure they didn't exist in the parent directory. we used `-u` to check if they are newer than destination file or not present at the destinational directory. But for cool stuff is better to make sure that it restrict search to only current directory with `-maxdepth 1` by leveraging `find` command.
+## Move-15
+We have to create script to move all files with uppercase letter at the beginning to the directory `/tmp/u` and in this scenario we assumed that thid directory exists.
+So here we used simple stuffs `[A-Z]*` to specify all uppercased files at beginning and then move them into desired directory.
 
 ---
 
