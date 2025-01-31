@@ -38,6 +38,12 @@ Here is quick descri about the commands:
 ## Am the file-12
 We crafted script to print the type of the file `iamafile` in directory `tmp`; and here we used command `file` and then the path where the file is located which is `/tmp/iamafile`. As addition, talking about the type you can think about the command `type` instead of `file` but `type` is used for commands not the files.
 
+## The symbols-13
+In this task we are required to create a symbolic link to `/bin/ls` and name it `__ls__` and make sure the symbolic link is in our current working directory. Ah seems to be challenging let's go through all its parts:
+- `ln` : command used to create links between files and it has two types (`Hard links` which  create duplicate reference to given file and `soft links` create shortcut pointing to a file or dir), and for `soft link` we have to use flag `-s`
+- `/bin/ls` : our targeted file path
+- `__ls__` : the name of symbolic link that we have created in our current directory
+
 ---
 
 All in all we're mastering terminal by automating the boring stuff :smile: 
