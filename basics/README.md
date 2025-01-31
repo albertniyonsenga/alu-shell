@@ -19,7 +19,7 @@ Here i used `ls -lan`, lemme explain more about this command:
 - `-l`: used to display content in long format(showing permissions, owners, etc.)
 - `-a`: used to show all files including hidden ones
 - `-n`: used to display numerical user and group IDs instead of names.
-So to achieve that automation, i used `ls -lan` and here we go:tada:.
+So to achieve that automation, i used `ls -lan` and here we go :tada:.
 
 ## Welcome-6
 We created script a script to change directory to `/tmp` and create new file named `my_first_directory` in that directory. 
@@ -42,7 +42,10 @@ We crafted script to print the type of the file `iamafile` in directory `tmp`; a
 In this task we are required to create a symbolic link to `/bin/ls` and name it `__ls__` and make sure the symbolic link is in our current working directory. Ah seems to be challenging let's go through all its parts:
 - `ln` : command used to create links between files and it has two types (`Hard links` which  create duplicate reference to given file and `soft links` create shortcut pointing to a file or dir), and for `soft link` we have to use flag `-s`
 - `/bin/ls` : our targeted file path
-- `__ls__` : the name of symbolic link that we have created in our current directory
+- `__ls__` : the name of symbolic link that we have created in our current directory.
+
+## Copy HTML-14
+We are required to copy all `HTML` files from current directory to the parent directory and also make sure they didn't exist in the parent directory. we used `-u` to check if they are newer than destination file or not present at the destinational directory. But for cool stuff is better to make sure that it restrict search to only current directory with `-maxdepth 1` by leveraging `find` command.
 
 ---
 
