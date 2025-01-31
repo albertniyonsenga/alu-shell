@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -maxdeph 1 -name "*.html" -exec bash -c '[[! -f "../$(basename{})" || {} -nt "../$(basename {})"]] && cp {} ../'
