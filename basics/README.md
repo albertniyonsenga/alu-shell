@@ -52,6 +52,8 @@ So here we used simple stuffs `[A-Z]*` to specify all uppercased files at beginn
 ## Clean and climb-16&17
 Starting with Task 16, we have to clean all the files ended by `~` in our current directory. And for Task 17 we are required to directories at the same time `welcome/`, `welcome/to/` and `welcome/to/school` all in our current director.
 
+## this is Team 31
+
 ---
 
 All in all we're mastering terminal by automating the boring stuff :smile: 
