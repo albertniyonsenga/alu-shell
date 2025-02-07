@@ -14,6 +14,11 @@ We used `groups` command to print out all the group associated with current user
 We aim to change the owner of the file `hello` to the user `betty`
 ## New -4
 We created the new file using `touch` command and then file_name.
+## Execute -5
+We are required to add scripts that will execute permissions to the owner of the file in our working directory, permission is `-rwxr--r--` where we used `chmod numbers` of `744` to get intended the result. Here is the quick view of the solution:
+- `7`: which stands for `rwx` stands for read, write and execute.
+- `4`: which stands for `r--` stands for read.
+So here the file owner will be able to add, and execute file as well as reading the file content.
 
 ---
 Wanna test on yourself :smile: feel free to use use those scripts.
