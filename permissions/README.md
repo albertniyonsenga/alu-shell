@@ -25,6 +25,8 @@ For the scripts that adds execute permissions to the owner and the group owner a
 > `754`as by adding `5` to add the read and execution permission.
 ## Everybody - 7
 To add the execution permission to all users we used `chmod +x file_name`and boom we are ready to go :smile:.
+## James Bond - 8
+We then changed the permission of the `hello` file so that both owner and group will have no permissions at all and then other user have all permissions by using `chmod 007 hello`.
 
 ---
 Wanna test on yourself :smile: feel free to use use those scripts.
