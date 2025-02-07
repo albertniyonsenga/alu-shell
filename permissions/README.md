@@ -28,5 +28,10 @@ To add the execution permission to all users we used `chmod +x file_name`and boo
 ## James Bond - 8
 We then changed the permission of the `hello` file so that both owner and group will have no permissions at all and then other user have all permissions by using `chmod 007 hello`.
 
+
+
+## Amazing work
+whhakkakjakjskjksaksajkjkasjkjsakjkjsa
+hjajh
 ---
 Wanna test on yourself :smile: feel free to use use those scripts.
