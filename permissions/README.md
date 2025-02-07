@@ -12,6 +12,8 @@ We used `groups` command to print out all the group associated with current user
 
 ## New owner -3
 We aim to change the owner of the file `hello` to the user `betty`
+## New -4
+We created the new file using `touch` command and then file_name.
 
 ---
 Wanna test on yourself :smile: feel free to use use those scripts.
