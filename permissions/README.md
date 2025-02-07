@@ -23,6 +23,8 @@ So here the file owner will be able to add, and execute file as well as reading 
 ## Multiple permissions - 6
 For the scripts that adds execute permissions to the owner and the group owner and then read permissions to other users on our `hello` file we used 
 > `754`as by adding `5` to add the read and execution permission.
+## Everybody - 7
+To add the execution permission to all users we used `chmod +x file_name`and boom we are ready to go :smile:.
 
 ---
 Wanna test on yourself :smile: feel free to use use those scripts.
