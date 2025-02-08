@@ -36,5 +36,9 @@ To set the mode of our file to `-rwxr-x-wx`, we used `chmod 753 file_name` to se
 ## Look in the mirror - 10
 We have to craft a script that set the mode of file `hello` the same as `olleh` mode and we used `--reference` command to  accomplish that with ease so that it can work for any mode.
 
+## Directories - 11
+We crafted script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
+Where we used `find` to get all the current directories and then execute `chmod 755` to set the permissions and then here we are :smile:.
+
 ---
 Wanna test on yourself :smile: feel free to use use those scripts.
