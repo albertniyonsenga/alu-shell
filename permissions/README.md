@@ -49,5 +49,11 @@ As we are required to change the group owner of `hello` file to `school`, we use
 ## Owner and group - 14
 We are required to change the owner and group of all files and our directories in the working directory; here we used `chown` command and then use `vincent:staff` to specify that we will change the ownership in recusive way and then `./*` so that all files and directories will be included  form our working directory
 
+## Symbolic links - 15
+Here we crafted script that change the owner and the group owner of `_hello` to `vincent` and `staff`, and this file is symbolic link. So we used `chown -h vincent:staff _hello` as simple as we did in **Task 14** and using `-h` we specified that we are working with symbolic link.
+
+## If only - 16
+Finally here we have to craft script that changes the owner of a file but only when it's owned by user called `guillaume` and by using `--form=current_user` between the `chown` and `vincent hello` we can simply achieve that; as from will be testing only current owner files and after we go for changing.
+
 ---
 Wanna test on yourself :smile: feel free to use use those scripts.
