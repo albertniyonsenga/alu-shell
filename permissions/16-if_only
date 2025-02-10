@@ -1,2 +1,2 @@
 #!/bin/bash
-while ["$(stat -c %U hello)" = "guillaume"] do chown vincent hello
+if ["$(stat -c %U hello)" = "guillaume"] then chown vincent hello fi
