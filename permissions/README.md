@@ -40,5 +40,11 @@ We have to craft a script that set the mode of file `hello` the same as `olleh` 
 We crafted script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
 Where we used `find` to get all the current directories and then execute `chmod 755` to set the permissions and then here we are :smile:.
 
+## More directories - 12
+In this task we was required to craft script that create directory `my_dir` withe permission of `751` in current directory. And here we used simple command `mkdir` and then parse `-m` so that we can be able to specify the permission and then the name of new directory.
+
+## Change group - 13
+As we are required to change the group owner of `hello` file to `school`, we used simple `chgrp` command and then assign new group and finally the file_name.
+
 ---
 Wanna test on yourself :smile: feel free to use use those scripts.
