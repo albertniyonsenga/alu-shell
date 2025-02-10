@@ -46,5 +46,8 @@ In this task we was required to craft script that create directory `my_dir` with
 ## Change group - 13
 As we are required to change the group owner of `hello` file to `school`, we used simple `chgrp` command and then assign new group and finally the file_name.
 
+## Owner and group - 14
+We are required to change the owner and group of all files and our directories in the working directory; here we used `chown` command and then use `vincent:staff` to specify that we will change the ownership in recusive way and then `./*` so that all files and directories will be included  form our working directory
+
 ---
 Wanna test on yourself :smile: feel free to use use those scripts.
