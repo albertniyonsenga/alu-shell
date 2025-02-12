@@ -37,3 +37,20 @@ To remove all regular files with a `.js` extension in the current directory and 
 - `-delete`: Finally to the action of deleting it.
 
 ## Don't count - 11
+To count the number of dirs and sub-dirs in the current dir and then make sure the hidden dirs are counted and not include the current and parental dirs. As the way to accomplish that we used `echo "logic"`to print the output. Okay let's elaborate more on the logic behind:
+- `find .`: to find in the our current dir.
+- `-type d`: to specify the type of stuffs we will be looking for.
+- `-not path '.'` and `-not path './..'`: To clarify that we will not include current dir and parental dir as well.
+
+## What's new - 12
+In this task we have to display the 10 newest files in the current directory, one file per line and then sort from the newest to the oldest one , so to accomplish this kind of automation we used `ls -1t` to sort the files basing on the date/time and then we used `head -n 10` to get the lastest 10 files asap.
+
+## Uniqueness - 13
+we was required to write a script that tales a list of words as input and prints only words that appear exactly once and also we must make sure the words are being sorted, so here we used `sort` first to sort all the words and then we parse `uniq -u`.
+
+## In that file - 14
+By using `grep` and then the pattern plus the file_name we can simply display the lines containing that pattern from file's  content.
+
+## Count that word - 15
+WE simply required to display the number of lines that contain pattern `bin` in the given file and we accomplish that by using `cat"pattern " filename `and then pipe `wc -l`to count the lines.
+
