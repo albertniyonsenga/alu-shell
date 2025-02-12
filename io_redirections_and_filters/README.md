@@ -52,5 +52,19 @@ we was required to write a script that tales a list of words as input and prints
 By using `grep` and then the pattern plus the file_name we can simply display the lines containing that pattern from file's  content.
 
 ## Count that word - 15
-WE simply required to display the number of lines that contain pattern `bin` in the given file and we accomplish that by using `cat"pattern " filename `and then pipe `wc -l`to count the lines.
+We simply required to display the number of lines that contain pattern `bin` in the given file and we accomplish that by using `cat"pattern " filename `and then pipe `wc -l`to count the lines.
 
+## What's next - 16
+Displaying the lines containg patter `root` and add 3 lines after them where we used `grep` and then `-A 3` to specify that we will add 3 lines after, and finally pattern plus file_path.
+
+## Hating bins - 17
+Display all the lines in the file `/etc/pasword`that don't contain the pattern `bin`, and we did that by using `grep !"bin"` and then parse file_path.
+
+## Letters only - 18
+Display all lines of the file `/etc/ssh/sshd_config` starting with a letter including capital letters as well. We used `grep "^[A-Za-z]"` and then parse the file path.
+
+## A to Z - 19
+We leveraged the `tr` and then `Ac Ze`and get the work done.
+
+## Hiago - 20
+As required to remove all letters `c` and `C` from input we accomplished that automation using `tr -d "cC"`. 
