@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Displaying best school x10 , bad luck at 4th iter and 8 at 8th iter
+count=1
+
+while [ $count -le 10 ]
+do 
+  if [ $count -eq 9];then
+     echo "bad luck"
+  elif
+     echo "good luck"
+  else
+     echo "Best School"
+  fi
+done
