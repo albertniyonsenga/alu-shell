@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Displaying the content of the current directory, showing names after the first dash
 
-ls="$ls"
+ls="$(ls)"
 
 for list  in $ls 
 do
