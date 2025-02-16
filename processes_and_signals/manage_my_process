@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#file to be managed by 11-manage_my_proces
+
+while true; do
+      echo "I am alive !" >> /tmp/my_process
+      sleep 2
+done
